@@ -645,5 +645,4 @@ document.addEventListener('DOMContentLoaded', () => {
   initCookieBanner();
   initLinks();
   initMarketCircles();
-  initTypewriter();
 });
