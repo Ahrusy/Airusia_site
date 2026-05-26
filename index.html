@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ═══ SEO ═══ -->
+  <title>Airusia — Маркетплейс цифровой инфраструктуры для бизнеса</title>
+  <meta name="description" content="Airusia — новый независимый слой между поставщиками ИТ-решений и бизнесом. Единая экосистема: маркетплейс, сообщество, медиа и инвестиционная среда. Pre-MVP, 2026." />
+  <meta name="keywords" content="маркетплейс цифровых сервисов, ИТ-инфраструктура, CRM, AI, VPS, финтех, SaaS, инвестиции в стартап, Airusia" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Airusia" />
+  <link rel="canonical" href="https://airusia.com/" />
+
+  <!-- ═══ OPEN GRAPH ═══ -->
+  <meta property="og:type"         content="website" />
+  <meta property="og:url"          content="https://airusia.com/" />
+  <meta property="og:site_name"    content="Airusia" />
+  <meta property="og:locale"       content="ru_RU" />
+  <meta property="og:title"        content="Airusia — Место, где начинается выбор цифровой инфраструктуры" />
+  <meta property="og:description"  content="Новый независимый слой между поставщиками ИТ-решений и бизнесом. Не каталог и не рейтинг — единая экосистема структурированного выбора." />
+  <meta property="og:image"        content="https://airusia.com/assets/og-image.png" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt"    content="Airusia — платформа выбора цифровых решений" />
+
+  <!-- ═══ TWITTER CARD ═══ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Airusia — Место, где начинается выбор цифровой инфраструктуры" />
+  <meta name="twitter:description" content="Новый независимый слой между поставщиками ИТ-решений и бизнесом." />
+  <meta name="twitter:image"       content="https://airusia.com/assets/og-image.png" />
+
+  <!-- ═══ STRUCTURED DATA ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://airusia.com/#website",
+        "url": "https://airusia.com/",
+        "name": "Airusia",
+        "description": "Независимая платформа выбора цифровых решений для бизнеса",
+        "inLanguage": "ru-RU"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://airusia.com/#organization",
+        "name": "Airusia",
+        "url": "https://airusia.com",
+        "description": "Маркетплейс цифровых сервисов — CRM, облака, AI, финтех, телефония",
+        "email": "partner@airusia.com",
+        "foundingDate": "2026"
+      }
+    ]
+  }
+  </script>
+
+  <!-- ═══ FONTS ═══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Montserrat:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+  <!-- ═══ STYLES ═══ -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- JS detect -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+
+<!-- ═══ CURSOR ═══ -->
+<div class="cursor"      id="cursor"      aria-hidden="true"></div>
+<div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+<!-- ═══ GRAIN ═══ -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ═══ SCROLL PROGRESS ═══ -->
+<div id="scroll-bar" class="scroll-bar" aria-hidden="true"></div>
+
+<!-- ═══ NAV ═══ -->
+<header>
+<nav id="nav" class="nav" aria-label="Основная навигация">
+  <div class="nav-inner container">
+
+    <a href="#hero" class="nav-logo" aria-label="Airusia — на главную">
+      <svg class="logo-mark" width="26" height="20" viewBox="0 0 26 20" fill="none" aria-hidden="true">
+        <rect x="0"  y="0"  width="26" height="4.5" rx="2.25" fill="#28B8A0"/>
+        <rect x="4"  y="7.75" width="22" height="4.5" rx="2.25" fill="#28B8A0"/>
+        <rect x="9"  y="15.5" width="17" height="4.5" rx="2.25" fill="#28B8A0"/>
+      </svg>
+      <span class="logo-text">Airusia</span>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#problem"   class="nav-link">Проблема</a></li>
+      <li><a href="#platform"  class="nav-link">Экосистема</a></li>
+      <li><a href="#market"    class="nav-link">Рынок</a></li>
+      <li><a href="#traction"  class="nav-link">Статус</a></li>
+      <li><a href="#faq"       class="nav-link">FAQ</a></li>
+      <li><a href="#contacts"  class="nav-link nav-cta">Стать партнёром</a></li>
+    </ul>
+
+    <button class="burger" id="burger"
+            aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu"
+       aria-hidden="true" aria-label="Мобильное меню">
+    <a href="#problem">Проблема</a>
+    <a href="#platform">Экосистема</a>
+    <a href="#market">Рынок</a>
+    <a href="#traction">Статус</a>
+    <a href="#contacts">Стать партнёром</a>
+  </div>
+</nav>
+</header>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════════════════
+     01 — HERO
+     ═══════════════════════════════════════════════════════════ -->
+<section id="hero" class="hero">
+
+  <!-- Canvas particle network — chaos → order on scroll -->
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+  <!-- CSS dot grid -->
+  <div class="hero-dots" aria-hidden="true"></div>
+
+  <!-- Gradient veil -->
+  <div class="hero-veil" aria-hidden="true"></div>
+  <div class="hero-fade" aria-hidden="true"></div>
+
+  <div class="container hero-body">
+
+    <div class="hero-left">
+
+      <div class="hero-tag" aria-label="Статус проекта">
+        <span class="tag-dot" aria-hidden="true"></span>
+        Pre-MVP &nbsp;·&nbsp; Инвестиционная стадия &nbsp;·&nbsp; 2026
+      </div>
+
+      <!-- Бренд — отдельный элемент с визуальным акцентом -->
+      <div class="hero-brand" aria-hidden="true">Airusia</div>
+
+      <h1 class="hero-h1" id="hero-h1">
+        <span class="hl-line">Место, где начинается</span>
+        <span class="hl-line">выбор цифровой</span>
+        <span class="hl-line teal">инфраструктуры.</span>
+      </h1>
+
+      <p class="hero-sub" id="hero-sub">
+        Новый независимый слой между бизнесом и поставщиками
+        <span class="type-word" id="type-word">CRM-систем</span>.
+        Единая экосистема структурированного выбора.
+      </p>
+
+      <div class="hero-btns" id="hero-btns">
+        <a href="#contacts" class="btn-primary btn-lg">Стать партнёром</a>
+        <a href="#platform"  class="btn-outline">Узнать больше</a>
+      </div>
+
+      <div class="hero-stats" id="hero-stats">
+        <div class="hs-item">
+          <strong class="hs-num">6.2M</strong>
+          <span class="hs-lbl">компаний МСБ<br>в России</span>
+        </div>
+        <div class="hs-item">
+          <strong class="hs-num">&gt;1T$</strong>
+          <span class="hs-lbl">объём SaaS-рынка<br>к 2030 году</span>
+        </div>
+        <div class="hs-item">
+          <strong class="hs-num">2026</strong>
+          <span class="hs-lbl">старт<br>платформы</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ═══ HERO RIGHT — Teal Sphere ═══ -->
+    <div class="hero-right" aria-hidden="true">
+      <div class="hero-visual-wrap" id="hero-mockup">
+        <img
+          src="assets/photos/hero_sphere_teal.png"
+          alt=""
+          class="hero-photo"
+          loading="eager"
+        />
+        <div class="hero-photo-glow"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <a href="#problem" class="scroll-hint" aria-label="Прокрутить к проблеме">
+    <div class="scroll-mouse">
+      <div class="scroll-wheel"></div>
+    </div>
+    Скролл
+  </a>
+
+</section>
+
+
+<!-- ═══ MARQUEE TICKER ═══ -->
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="mq-item">CRM</span><span class="mq-sep">·</span>
+    <span class="mq-item">AI Services</span><span class="mq-sep">·</span>
+    <span class="mq-item">VPS / Cloud</span><span class="mq-sep">·</span>
+    <span class="mq-item">Финтех</span><span class="mq-sep">·</span>
+    <span class="mq-item">Телефония</span><span class="mq-sep">·</span>
+    <span class="mq-item">Эквайринг</span><span class="mq-sep">·</span>
+    <span class="mq-item">SaaS</span><span class="mq-sep">·</span>
+    <span class="mq-item">CDN</span><span class="mq-sep">·</span>
+    <span class="mq-item">ERP</span><span class="mq-sep">·</span>
+    <span class="mq-item">Облака</span><span class="mq-sep">·</span>
+    <span class="mq-item">CRM</span><span class="mq-sep">·</span>
+    <span class="mq-item">AI Services</span><span class="mq-sep">·</span>
+    <span class="mq-item">VPS / Cloud</span><span class="mq-sep">·</span>
+    <span class="mq-item">Финтех</span><span class="mq-sep">·</span>
+    <span class="mq-item">Телефония</span><span class="mq-sep">·</span>
+    <span class="mq-item">Эквайринг</span><span class="mq-sep">·</span>
+    <span class="mq-item">SaaS</span><span class="mq-sep">·</span>
+    <span class="mq-item">CDN</span><span class="mq-sep">·</span>
+    <span class="mq-item">ERP</span><span class="mq-sep">·</span>
+    <span class="mq-item">Облака</span><span class="mq-sep">·</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     01.5 — CATEGORIES
+     ═══════════════════════════════════════════════════════════ -->
+<section id="categories" class="categories-sec">
+  <div class="container">
+    <p class="eyebrow r" data-d="0">Категории платформы</p>
+    <h2 class="r" data-d="60">
+      Все цифровые сервисы<br>
+      <span class="teal">в одном месте.</span>
+    </h2>
+
+    <div class="cat-grid">
+
+      <a href="#contacts" class="cat-card r" data-d="0">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/market_data.png" alt="CRM-системы" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></span>
+          <span class="cat-name">CRM-системы</span>
+          <span class="cat-count">120+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card r" data-d="60">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/hero_sphere_teal.png" alt="Облака и VPS" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg></span>
+          <span class="cat-name">Облака и VPS</span>
+          <span class="cat-count">85+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card r" data-d="120">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/ask_coevolution.png" alt="AI-сервисы" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></span>
+          <span class="cat-name">AI-сервисы</span>
+          <span class="cat-count">200+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card r" data-d="180">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/delivery_tablet.png" alt="Финтех и банки" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></span>
+          <span class="cat-name">Финтех и банки</span>
+          <span class="cat-count">95+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card r" data-d="240">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/platform_keyboard.png" alt="Телефония" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></span>
+          <span class="cat-name">Телефония</span>
+          <span class="cat-count">60+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card r" data-d="300">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/marketplace_cart.png" alt="E-commerce" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg></span>
+          <span class="cat-name">E-commerce</span>
+          <span class="cat-count">75+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card r" data-d="360">
+        <div class="cat-img-wrap">
+          <img src="assets/photos/traction_code.png" alt="Разработка" loading="lazy" />
+          <div class="cat-overlay"></div>
+        </div>
+        <div class="cat-body">
+          <span class="cat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+          <span class="cat-name">Разработка</span>
+          <span class="cat-count">150+ сервисов</span>
+        </div>
+      </a>
+
+      <a href="#contacts" class="cat-card cat-card--cta r" data-d="420">
+        <div class="cat-cta-inner">
+          <span class="cat-cta-num">700+</span>
+          <span class="cat-cta-label">сервисов<br>на платформе</span>
+          <span class="cat-cta-link">Стать партнёром →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     02 — PROBLEM
+     ═══════════════════════════════════════════════════════════ -->
+<section id="problem" class="problem-sec">
+  <div class="container">
+
+    <p class="eyebrow r" data-d="0">01 / Проблема рынка</p>
+
+    <div class="problem-layout">
+      <div class="problem-text">
+        <h2 class="r" data-d="80">
+          ИТ-рынок сегодня —<br>
+          <span class="teal">это хаос выбора.</span>
+        </h2>
+        <p class="problem-body r" data-d="160">
+          Поиск цифровой инфраструктуры — от эквайринга до AI-сервисов — занимает недели.
+          Предприниматель просматривает десятки сайтов, читает накрученные отзывы
+          и несёт колоссальные риски ошибки. Это не норма. Это проблема,
+          которую мы решаем.
+        </p>
+        <p class="problem-body r" data-d="220" style="margin-top: -8px;">
+          <strong style="color: var(--teal-hi)">Для разработчиков:</strong>
+          &nbsp;новые MVP не могут пробиться сквозь рекламные бюджеты ИТ-гигантов.
+          Airusia даёт им честное место на рынке.
+        </p>
+      </div>
+
+      <div class="prob-diagrams r" data-d="200">
+
+        <!-- Фото ЛЕВОЕ: хаос — стикеры на доске -->
+        <div class="prob-diagram prob-diagram--photo">
+          <p class="prob-diag-label bad">Как сейчас</p>
+          <div class="prob-photo-wrap">
+            <img src="assets/photos/problem_stickers.png" alt="Хаос выбора ИТ-сервисов" loading="lazy" />
+            <div class="prob-photo-overlay"></div>
+            <div class="prob-photo-caption">Десятки сервисов, сотни вкладок, нет структуры</div>
+          </div>
+        </div>
+
+        <!-- Фото ПРАВОЕ: структура — сфера с пиксельной сеткой -->
+        <div class="prob-diagram prob-diagram--photo">
+          <p class="prob-diag-label good">С Airusia</p>
+          <div class="prob-photo-wrap">
+            <img src="assets/photos/problem_sphere_pixel.png" alt="Структурированный выбор через Airusia" loading="lazy" />
+            <div class="prob-photo-overlay prob-photo-overlay--teal"></div>
+            <div class="prob-photo-caption">Единая структура. Один запрос — точный результат</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     03 — PLATFORM (LAYER STACK)
+     ═══════════════════════════════════════════════════════════ -->
+<section id="platform" class="platform-sec">
+  <div class="container">
+
+    <div class="platform-intro">
+      <p class="eyebrow r" data-d="0">02 / Экосистема</p>
+      <h2 class="r" data-d="80">
+        Новый слой рынка.<br>
+        <span class="teal">Не маркетплейс. Экосистема.</span>
+      </h2>
+      <p class="r" data-d="160">
+        Airusia объединяет Marketplace, сообщество, независимые медиа
+        и инвестиционную среду в одном пространстве.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Sticky layer stack — full width context, container inside -->
+  <div class="layers-outer" id="layers-outer">
+    <div class="layers-pin">
+      <div class="container">
+
+        <div class="layer-stack" role="list" aria-label="Компоненты платформы">
+
+          <!-- Card 1: Marketplace -->
+          <div class="layer-card" role="listitem" style="z-index:4;">
+            <div class="layer-card-photo">
+              <img src="assets/photos/market_data.png" alt="" loading="lazy" />
+              <div class="layer-card-photo-overlay"></div>
+            </div>
+            <div class="layer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <path d="M8 21h8M12 17v4"/>
+                <path d="M7 8h10M7 11h6"/>
+              </svg>
+            </div>
+            <div>
+              <span class="layer-num">01</span>
+              <h3>Marketplace</h3>
+              <p>
+                Структурированный подбор цифровых решений — от эквайринга и VPS
+                до AI-сервисов и ERP. Быстро, честно, без накрученных рейтингов.
+              </p>
+              <span class="layer-badge">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><circle cx="6" cy="6" r="4" stroke="#28B8A0" stroke-width="1.5"/><path d="M4 6l1.5 1.5L8 4" stroke="#28B8A0" stroke-width="1.4" stroke-linecap="round"/></svg>
+                Финтех · SaaS · Инфраструктура · AI
+              </span>
+            </div>
+          </div>
+
+          <!-- Card 2: Community -->
+          <div class="layer-card" role="listitem" style="z-index:3;">
+            <div class="layer-card-photo">
+              <img src="assets/photos/problem_stickers.png" alt="" loading="lazy" />
+              <div class="layer-card-photo-overlay"></div>
+            </div>
+            <div class="layer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            </div>
+            <div>
+              <span class="layer-num">02</span>
+              <h3>Community &amp; Медиа</h3>
+              <p>
+                Живые обсуждения, реальные кейсы и прямая коммуникация
+                «Разработчик ↔ Клиент» и «Разработчик ↔ Инвестор».
+                Независимые обзоры без рекламного влияния.
+              </p>
+              <span class="layer-badge">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><circle cx="6" cy="6" r="4" stroke="#28B8A0" stroke-width="1.5"/><path d="M4 6l1.5 1.5L8 4" stroke="#28B8A0" stroke-width="1.4" stroke-linecap="round"/></svg>
+                Форумы · Кейсы · Прямая связь
+              </span>
+            </div>
+          </div>
+
+          <!-- Card 3: Media -->
+          <div class="layer-card" role="listitem" style="z-index:2;">
+            <div class="layer-card-photo">
+              <img src="assets/photos/market_data.png" alt="" loading="lazy" />
+              <div class="layer-card-photo-overlay"></div>
+            </div>
+            <div class="layer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16v16H4z" rx="2"/>
+                <path d="M4 9h16M9 9v11"/>
+              </svg>
+            </div>
+            <div>
+              <span class="layer-num">03</span>
+              <h3>Независимые медиа</h3>
+              <p>
+                Аналитика и обзоры рынка ИТ-решений без конфликта интересов.
+                Платформа, где контент создаётся профессионалами индустрии,
+                а не маркетинговыми командами.
+              </p>
+              <span class="layer-badge">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><circle cx="6" cy="6" r="4" stroke="#28B8A0" stroke-width="1.5"/><path d="M4 6l1.5 1.5L8 4" stroke="#28B8A0" stroke-width="1.4" stroke-linecap="round"/></svg>
+                Аналитика · Обзоры · Тренды
+              </span>
+            </div>
+          </div>
+
+          <!-- Card 4: Investment -->
+          <div class="layer-card" role="listitem" style="z-index:1;">
+            <div class="layer-card-photo">
+              <img src="assets/photos/partners_escalator.png" alt="" loading="lazy" />
+              <div class="layer-card-photo-overlay"></div>
+            </div>
+            <div class="layer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 20L11 13L16 18L24 8" stroke="#28B8A0"/>
+                <path d="M18 8H24V14" stroke="#28B8A0"/>
+              </svg>
+            </div>
+            <div>
+              <span class="layer-num">04</span>
+              <h3>Инвестиционная витрина</h3>
+              <p>
+                Пространство, где перспективные стартапы и MVP находят
+                первых пользователей, масштабируются и привлекают финансирование.
+                Рост через экосистему, а не через холодный питч.
+              </p>
+              <span class="layer-badge">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><circle cx="6" cy="6" r="4" stroke="#28B8A0" stroke-width="1.5"/><path d="M4 6l1.5 1.5L8 4" stroke="#28B8A0" stroke-width="1.4" stroke-linecap="round"/></svg>
+                MVP · Seed · Scale
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Progress dots -->
+        <div class="layer-progress" role="tablist" aria-label="Компонент экосистемы">
+          <div class="lp-dot active" role="tab" aria-label="Marketplace"></div>
+          <div class="lp-dot"        role="tab" aria-label="Community"></div>
+          <div class="lp-dot"        role="tab" aria-label="Медиа"></div>
+          <div class="lp-dot"        role="tab" aria-label="Инвестиции"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     04 — MARKET SIZE
+     ═══════════════════════════════════════════════════════════ -->
+<section id="market" class="market-sec">
+  <div class="market-ring" aria-hidden="true"></div>
+  <div class="container">
+    <p class="eyebrow r" data-d="0">03 / Масштаб рынка</p>
+
+    <div class="market-layout">
+      <div class="market-left">
+        <h2 class="r" data-d="80">
+          Колоссальный рынок.<br>
+          <span class="teal">Пустое место для лидера.</span>
+        </h2>
+        <p class="r" data-d="160">
+          Платформа охватывает один из самых быстрорастущих сегментов
+          мировой экономики — SaaS, Cloud Infrastructure и AI-решения.
+          Airusia снижает стоимость поиска для миллионов клиентов
+          и стоимость дистрибуции для тысяч ИТ-поставщиков.
+        </p>
+        <p class="r" data-d="200" style="color: var(--teal-hi); font-size: .88rem; font-style: italic;">
+          Product Hunt + App Store + Marketplace —<br>
+          адаптированный под запросы бизнеса 2026 года.
+        </p>
+
+        <div class="market-metrics r" data-d="260">
+          <div class="metric-card">
+            <span class="metric-val"
+                  data-counter data-val="40" data-suffix="%+">40%+</span>
+            <span class="metric-lbl">ежегодный рост<br>числа AI-сервисов</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-val"
+                  data-counter data-val="1" data-prefix="&gt;" data-suffix="T$">&gt;1T$</span>
+            <span class="metric-lbl">объём SaaS-рынка<br>к 2030 году</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-val"
+                  data-counter data-val="300" data-suffix="%">300%</span>
+            <span class="metric-lbl">рост числа цифровых<br>сервисов за 5 лет</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-val"
+                  data-counter data-val="6.2" data-suffix="M">6.2M</span>
+            <span class="metric-lbl">компаний МСБ<br>в России</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="market-visual r-right" data-d="100">
+        <div class="market-photo-wrap" aria-label="Визуализация роста рынка">
+          <img
+            src="assets/photos/market_growth_1.png"
+            alt="Рост рынка цифровых сервисов"
+            loading="lazy"
+            class="market-photo"
+          />
+          <div class="market-photo-caption">
+            <span class="market-photo-tag">SaaS-рынок</span>
+            <span class="market-photo-val">&gt;1T$ к 2030</span>
+          </div>
+        </div>
+      </div>    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     05 — TRACTION
+     ═══════════════════════════════════════════════════════════ -->
+<section id="traction" class="traction-sec">
+  <div class="container">
+
+    <p class="eyebrow r" data-d="0">04 / Статус проекта</p>
+    <h2 class="r" data-d="80">
+      Что уже сделано.<br>
+      <span class="teal">Максимальная честность.</span>
+    </h2>
+
+    <div class="traction-grid">
+
+      <ul class="traction-list" role="list" aria-label="Выполненные этапы">
+
+        <li class="traction-item r" data-d="0">
+          <div class="traction-check" aria-hidden="true">
+            <svg viewBox="0 0 12 10" fill="none"><path d="M1 5l3 3.5L11 1" stroke="#28B8A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="traction-text">
+            Сформирована верхнеуровневая концепция и архитектура экосистемы
+            <em>Детальная бизнес-логика всех модулей платформы</em>
+          </p>
+        </li>
+
+        <li class="traction-item r" data-d="80">
+          <div class="traction-check" aria-hidden="true">
+            <svg viewBox="0 0 12 10" fill="none"><path d="M1 5l3 3.5L11 1" stroke="#28B8A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="traction-text">
+            Определена матрица базовых ИТ-сегментов для первоначального наполнения
+            <em>РКО, CRM, VPS, CDN, AI, Финтех, Телефония, E-commerce</em>
+          </p>
+        </li>
+
+        <li class="traction-item r" data-d="160">
+          <div class="traction-check" aria-hidden="true">
+            <svg viewBox="0 0 12 10" fill="none"><path d="M1 5l3 3.5L11 1" stroke="#28B8A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="traction-text">
+            Проработана многоканальная финансовая модель
+            <em>Модель подтверждает финансовую устойчивость проекта</em>
+          </p>
+        </li>
+
+        <li class="traction-item r" data-d="240">
+          <div class="traction-check" aria-hidden="true">
+            <svg viewBox="0 0 12 10" fill="none"><path d="M1 5l3 3.5L11 1" stroke="#28B8A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="traction-text">
+            Проект активно презентуется на стартап-площадках и технологических конференциях 2026 года
+            <em>Формируется пул стратегических партнёров</em>
+          </p>
+        </li>
+
+      </ul>
+
+      <div class="traction-status r-right" data-d="100">
+        <div class="traction-photo-wrap">
+          <img src="assets/photos/traction_code.png" alt="" loading="lazy" class="traction-photo" />
+          <div class="traction-photo-overlay"></div>
+        </div>
+        <h3>Текущий статус</h3>
+
+        <div class="status-line">
+          <div class="status-dot done" aria-hidden="true"></div>
+          <span>Концепция и архитектура</span>
+        </div>
+        <div class="status-line">
+          <div class="status-dot done" aria-hidden="true"></div>
+          <span>Анализ рынка и конкурентов</span>
+        </div>
+        <div class="status-line">
+          <div class="status-dot done" aria-hidden="true"></div>
+          <span>Бизнес-модель и монетизация</span>
+        </div>
+        <div class="status-line">
+          <div class="status-dot active" aria-hidden="true"></div>
+          <span style="color: var(--teal)">Привлечение стратегических партнёров</span>
+        </div>
+        <div class="status-line">
+          <div class="status-dot future" aria-hidden="true"></div>
+          <span style="color: var(--dim)">Разработка MVP</span>
+        </div>
+        <div class="status-line">
+          <div class="status-dot future" aria-hidden="true"></div>
+          <span style="color: var(--dim)">Запуск платформы</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     06 — STRATEGIC ASK
+     ═══════════════════════════════════════════════════════════ -->
+<section id="ask" class="ask-sec">
+  <div class="container">
+
+    <p class="eyebrow r" data-d="0">05 / Стратегический запрос</p>
+    <h2 class="r" data-d="80">
+      Кого мы ищем.<br>
+      <span class="teal">Три направления.</span>
+    </h2>
+
+    <div class="ask-grid">
+
+      <div class="ask-card r" data-d="0">
+        <div class="ask-card-photo">
+          <img src="assets/photos/dev_laptop_dark.png" alt="" loading="lazy" />
+          <div class="ask-card-photo-overlay"></div>
+        </div>
+        <div class="ask-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 20L11 13L16 18L24 8"/>
+            <path d="M18 8H24V14"/>
+          </svg>
+        </div>
+        <h3>Инвесторы</h3>
+        <p>
+          Smart Money для ускорения разработки и агрессивного маркетинга на старте.
+          Ищем инвесторов, которые понимают B2B-агрегацию и цифровой рынок.
+        </p>
+        <span class="ask-tag">Smart Capital</span>
+      </div>
+
+      <div class="ask-card r" data-d="100">
+        <div class="ask-card-photo">
+          <img src="assets/photos/partners_escalator.png" alt="" loading="lazy" />
+          <div class="ask-card-photo-overlay"></div>
+        </div>
+        <div class="ask-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 3L25 9V19L14 25L3 19V9L14 3Z"/>
+            <path d="M3 9L14 15L25 9"/>
+            <path d="M14 15V25"/>
+          </svg>
+        </div>
+        <h3>Стратегические партнёры</h3>
+        <p>
+          ИТ-интеграторы, банки и облачные провайдеры, готовые первыми
+          протестировать возможности платформы и заявить о себе на новом рынке.
+        </p>
+        <span class="ask-tag">Strategic Partners</span>
+      </div>
+
+      <div class="ask-card r" data-d="200">
+        <div class="ask-card-photo">
+          <img src="assets/photos/ask_coevolution.png" alt="" loading="lazy" />
+          <div class="ask-card-photo-overlay"></div>
+        </div>
+        <div class="ask-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 9L5 14L10 19M18 9L23 14L18 19"/>
+            <path d="M15 6L13 22" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Команда</h3>
+        <p>
+          Сильные ИТ-архитекторы, эксперты по трафику и
+          комьюнити-менеджеры, разделяющие нашу миссию.
+          Строим с теми, кому важен результат.
+        </p>
+        <span class="ask-tag">Join the Team</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     07 — FAQ
+     ═══════════════════════════════════════════════════════════ -->
+<section id="faq" class="faq-sec">
+  <div class="container">
+
+    <p class="eyebrow r" data-d="0">FAQ</p>
+    <h2 class="r" data-d="80">
+      Частые вопросы<br>
+      <span class="teal">от инвесторов.</span>
+    </h2>
+
+    <div class="faq-list">
+
+      <details class="faq-item r" data-d="0">
+        <summary class="faq-q">
+          Почему именно сейчас, в 2026 году?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="faq-body">
+          <p>Рынок ИТ-сервисов для бизнеса вошёл в фазу взрывного роста: количество SaaS-решений удваивается каждые три года, а инструментов для структурированного выбора по-прежнему нет. G2 и Capterra закрывают американский рынок, но не российский B2B-контекст. Мы входим в это окно первыми.</p>
+        </div>
+      </details>
+
+      <details class="faq-item r" data-d="60">
+        <summary class="faq-q">
+          Чем Airusia отличается от существующих каталогов?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="faq-body">
+          <p>Каталог — это просто список. Airusia — это слой взаимодействия: маркетплейс + сообщество + медиа + инвестиционная среда. Мы создаём сетевой эффект, при котором ценность платформы растёт с каждым новым участником — поставщиком или клиентом.</p>
+        </div>
+      </details>
+
+      <details class="faq-item r" data-d="120">
+        <summary class="faq-q">
+          Как защищены мои данные при переговорах?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="faq-body">
+          <p>Любой диалог начинается только по вашей инициативе. Pitch Deck с детальными финансовыми показателями предоставляется исключительно под NDA. Вся коммуникация ведётся в рамках ФЗ-152. Детальная архитектура, алгоритмы рекомендаций и точные метрики монетизации не публикуются публично.</p>
+        </div>
+      </details>
+
+      <details class="faq-item r" data-d="180">
+        <summary class="faq-q">
+          Когда ожидается запуск MVP?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="faq-body">
+          <p>Детальный роадмап с конкретными датами релизов доступен под NDA для подтверждённых партнёров и инвесторов. Проект находится на стадии привлечения стратегических партнёров и формирования команды разработки. Старт MVP планируется после закрытия первого раунда финансирования.</p>
+        </div>
+      </details>
+
+      <details class="faq-item r" data-d="240">
+        <summary class="faq-q">
+          Какие форматы участия доступны?
+          <span class="faq-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="faq-body">
+          <p>Мы открыты к различным форматам: инвестиционное участие (Smart Money), стратегическое партнёрство (ИТ-интеграторы, банки, облачные провайдеры), а также присоединение к команде для сильных технических специалистов и экспертов по росту. Напишите в Telegram или на email — ответим в течение 24 часов.</p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     08 — CONTACTS
+     ═══════════════════════════════════════════════════════════ -->
+<section id="contacts" class="contacts-sec">
+  <div class="container">
+
+    <p class="eyebrow r" data-d="0">06 / Контакты</p>
+    <h2 class="r" data-d="80">
+      Давайте создавать новый слой<br>
+      <span class="teal">цифровой индустрии вместе.</span>
+    </h2>
+
+    <p class="r" data-d="140" style="max-width:560px; color:var(--dim); margin-bottom:48px;">
+      Напишите напрямую — в Telegram или на почту. Ответим в течение 24 часов.
+      Pitch Deck с финансовой моделью предоставляется под NDA.
+    </p>
+
+    <div class="contacts-layout contacts-layout--noform">
+
+      <!-- QR -->
+      <div class="contacts-qr-col r" data-d="0">
+        <div class="qr-wrapper">
+          <div class="qr-box" aria-label="QR-код для связи в Telegram" role="img">
+            <div id="qr-canvas"></div>
+            <div class="qr-frame" aria-hidden="true"></div>
+          </div>
+          <p class="qr-hint">Открыть Telegram</p>
+        </div>
+
+        <!-- Badges -->
+        <div class="risk-badges risk-badges--col">
+          <span class="risk-badge">
+            <svg viewBox="0 0 14 14" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 1L2 3v5c0 3 2.5 5 5 5s5-2 5-5V3L7 1z" stroke="#28B8A0"/>
+            </svg>
+            NDA для инвесторов
+          </span>
+          <span class="risk-badge">
+            <svg viewBox="0 0 14 14" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="7" cy="7" r="5.5" stroke="#28B8A0"/>
+              <path d="M5 7l1.5 1.5L9.5 5" stroke="#28B8A0"/>
+            </svg>
+            Ответ в течение 24 ч
+          </span>
+        </div>
+      </div>
+
+      <!-- Contact links -->
+      <nav class="contact-links contact-links--large r-right" data-d="100" aria-label="Способы связи">
+
+        <a class="contact-link" data-href="telegram"
+           href="https://t.me/Airusy"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Написать в Telegram @Airusy">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21.8 2.2L1.2 10.1c-1.3.5-1.3 1.3-.2 1.6l5.2 1.6 2 6.3c.3.8.5 1.1 1.1 1.1.5 0 .7-.2 1-.5l2.5-2.4 5.2 3.8c1 .5 1.6.3 1.9-.9l3.4-16c.4-1.5-.6-2.2-1.5-1.5Z"/>
+          </svg>
+          <div class="contact-link-body">
+            <span>Telegram</span>
+            <small>@Airusy — самый быстрый способ</small>
+          </div>
+          <svg class="contact-link-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <a class="contact-link" data-href="email"
+           href="mailto:partner@airusia.com"
+           aria-label="Написать на email partner@airusia.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="3"/>
+            <path d="M2 8l10 7 10-7"/>
+          </svg>
+          <div class="contact-link-body">
+            <span>Email</span>
+            <small>partner@airusia.com</small>
+          </div>
+          <svg class="contact-link-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <a class="contact-link" data-href="deck" href="#"
+           aria-label="Запросить Pitch Deck под NDA">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <path d="M3 9h18M9 21V9"/>
+          </svg>
+          <div class="contact-link-body">
+            <span>Pitch Deck</span>
+            <small>Финансовая модель — только под NDA</small>
+          </div>
+          <svg class="contact-link-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+      </nav>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer" role="contentinfo">
+  <div class="container footer-inner">
+
+    <a href="#hero" class="footer-logo" aria-label="Airusia — наверх">
+      <svg width="22" height="17" viewBox="0 0 26 20" fill="none" aria-hidden="true">
+        <rect x="0"  y="0"    width="26" height="4.5" rx="2.25" fill="#28B8A0"/>
+        <rect x="4"  y="7.75" width="22" height="4.5" rx="2.25" fill="#28B8A0"/>
+        <rect x="9"  y="15.5" width="17" height="4.5" rx="2.25" fill="#28B8A0"/>
+      </svg>
+      <span>Airusia</span>
+    </a>
+
+    <div class="footer-copy">
+      <p>© 2026 Airusia &nbsp;·&nbsp; Pre-MVP &nbsp;·&nbsp; Building now</p>
+      <p class="footer-legal">
+        Сайт носит информационный характер и не собирает персональные данные через формы.
+        Связь — только по инициативе пользователя через Telegram или email.
+        <button class="footer-pp-btn" data-modal="privacy"
+                aria-haspopup="dialog">Политика конфиденциальности</button>
+      </p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Навигация в подвале">
+      <a href="#problem">Проблема</a>
+      <a href="#platform">Экосистема</a>
+      <a href="#traction">Статус</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+  </div>
+</footer>
+
+
+<!-- ═══ PRIVACY MODAL ═══ -->
+<div class="modal-overlay" id="privacy-modal"
+     role="dialog" aria-modal="true"
+     aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close" aria-label="Закрыть">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <h2 id="modal-title">Политика конфиденциальности</h2>
+    <div class="modal-content">
+      <p><strong>Оператор:</strong> Физическое лицо, действующее под брендом Airusia. Контактный адрес: partner@airusia.com. Сайт airusia.com функционирует в режиме pre-MVP и не осуществляет автоматизированный сбор персональных данных.</p>
+      <p><strong>Что сайт не делает:</strong> сайт не содержит форм сбора данных, не устанавливает аналитические трекеры, не передаёт данные посетителей третьим лицам.</p>
+      <p><strong>Как возникает коммуникация:</strong> связь происходит исключительно по инициативе самого пользователя — через Telegram (@Airusy) или email (partner@airusia.com). В этом случае пользователь самостоятельно передаёт свои контактные данные и несёт ответственность за их актуальность.</p>
+      <p><strong>Обработка полученных обращений:</strong> данные, добровольно переданные в ходе переписки (имя, контакт, название компании), используются исключительно для ответа на обращение и не передаются третьим лицам.</p>
+      <p><strong>Правовое основание:</strong> ст. 6 Федерального закона № 152-ФЗ «О персональных данных» — обработка в целях исполнения договора или по инициативе субъекта.</p>
+      <p><strong>Файлы cookie:</strong> сайт использует только технически необходимые cookie (localStorage) для сохранения вашего выбора по cookie-баннеру. Аналитические и рекламные cookie не применяются.</p>
+      <p><strong>Права субъекта:</strong> вы вправе запросить удаление переписки и связанных данных, направив запрос на partner@airusia.com. Ответ — в течение 30 дней.</p>
+      <p><strong>Актуальность:</strong> политика действует с мая 2026 года. При запуске полноценной платформы будет опубликована расширенная версия с указанием реквизитов юридического лица.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ COOKIE BANNER ═══ -->
+<div class="cookie-banner" id="cookie-banner"
+     role="region" aria-label="Использование cookie">
+  <p>
+    Сайт использует только технически необходимые cookie.
+    Аналитика и реклама не применяются.
+    <button class="footer-pp-btn" data-modal="privacy" style="font-size:inherit;">Подробнее</button>
+  </p>
+  <div class="cookie-actions">
+    <button id="cookie-accept" class="btn-sm btn-sm-primary">Понятно</button>
+    <button id="cookie-reject" class="btn-sm btn-sm-outline">Закрыть</button>
+  </div>
+</div>
+
+
+<!-- ═══ SCRIPTS ═══ -->
+<script src="script.js" defer></script>
+
+</body>
+</html>

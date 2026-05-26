@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://airusia.com/sitemap.xml
+# Disallow sensitive paths
+Disallow: /admin
+Disallow: /private
